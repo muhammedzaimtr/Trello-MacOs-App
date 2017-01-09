@@ -1,0 +1,19 @@
+{
+  "name": "Trello",
+  "version": "1.0.0",
+  "description": "Trello Mac Os App",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Trello --ignore=node_modules/electron-* && cp electron.icns Trello.app/Contents/Resources/electron.icns"
+  },
+  "repository": "https://github.com/muhammedzaimtr/Trello-MacOs-App",
+  "keywords": ["Electron","trello","muhammed","zaim"],
+  "author": "Muhammed ZAİM",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-packager": "^8.4.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
